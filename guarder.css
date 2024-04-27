@@ -1,0 +1,302 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.head
+{
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: -29px;
+}
+
+i{
+    color: rgb(255, 238, 0) ;
+    padding-top: 7px;
+}
+
+.navigation{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     background-image: url(../img/hero.jpg);
+     width: 1500px;
+     height: 555px;
+     /* background-size: cover; */
+     /* opacity: 0.9; */
+    }
+
+.logo{
+    font-weight: bolder;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.link a{
+    text-decoration: none;
+    padding-left: 40px;
+    color: white;
+}
+
+.link{
+  float: right;
+  margin-top: -20px;
+  margin-right: 10px;
+}
+
+a:hover{
+    background-color: black;
+    padding: 20px;
+}
+
+.content{
+    padding-left: 200px;
+}
+
+.c1{
+    padding-top: 100px;
+    color: white;
+}
+
+.c2{
+    color:rgb(241, 209, 23);
+}
+
+.para{
+    color: white;
+
+}
+
+.btn{
+    width: 150px;
+    height: 35px;
+    border: none;
+}
+
+.btn1{
+    width: 150px;
+    height: 35px;
+    background-color: rgb(241, 209, 23);
+    border: none;
+}
+
+/* HEADER ENDS */
+
+
+/* WHO ARE WE STARTS */
+
+.who{
+    height: 430px;
+    width: 100%;
+    /* border: 2px solid black; */
+    /* background-size: cover; */
+   
+}
+
+.img{
+    margin-top:80px;
+    margin-left: 180px;
+    display: flex;
+    position: relative;
+    /* background-size: cover; */
+}
+
+.text{
+    /* border: 2px solid white; */
+    width: 500px;
+    height: 220px;
+    background-color: white;
+    /* margin-right: 80px; */
+    margin-left: 450px;
+    margin-top: 60px;
+    position: absolute;
+    padding-left:20px;
+    padding-top: 15px;
+}
+
+.ton{
+    /* background-color:rgb(224, 70, 9) ; */
+    background-color:rgb(241, 209, 23);
+    border: none;
+    width: 120px;
+    height: 40px;
+    margin-top: 15px;
+    color: white;
+}
+
+/* OUR SERVICES */
+
+.services
+{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    
+}
+
+.services h2{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.box{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 250px;
+
+}
+
+.box1{
+    border: 2px solid white;
+    width: 300px;
+    height: 350px;
+    background-color: white;
+}
+
+.box2{
+    border: 2px solid white;
+    width: 300px;
+    height: 350px;
+    margin-left: 50px;
+    background-color: white;
+
+}
+
+.box3{
+    border: 2px solid white;
+    width: 300px;
+    height: 350px;
+    margin-left: 50px;
+    background-color: white;
+}
+
+.box span{
+   font-size: 80px;
+   padding: 40px;
+   padding-left: 100px;
+}
+
+.box h4{
+    text-align: center;
+}
+
+.box p{
+    text-align: center;
+}
+
+.box button{
+    margin-top: 20px;
+    margin-left: 90px;
+    width: 120px;
+    height: 30px;
+    background-color: orange;
+    border: none;
+    color: white;
+}
+
+.client{
+    width: 100%;
+    height: 310px;
+}
+
+.client h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.client img{
+    margin-left: 700px;
+    margin-top: 40px;
+}
+.name{
+    margin-left: 715px;
+    font-family: cursive;
+}
+
+.client p{
+    text-align: center;
+}
+
+/* form starts */
+
+.touch{
+    background-image: url(../img/touch.jpg);
+    width: 100%;
+    height:550px;
+    background-size: cover;
+}
+
+
+form{
+    text-align: center;
+}
+
+.manu{
+    width: 460px;
+    height: 35px;
+    border: none;
+}
+
+
+/* guards */
+
+.guards{
+    width: 100%;
+    height: 700px;
+}
+
+
+.peo{
+    display: flex;
+    margin-left: 190px;
+    margin-top: 50px;
+}
+
+.people{
+    width: 310px;
+    height: 370px;
+    display: flex;
+    border: 2px solid black;
+    padding: 40px;
+    margin-left:50px;
+    border: none;
+}
+
+#t1{
+    background-image: url(../img/people1.jpg);
+    background-size: cover;
+}
+
+#t2{
+    background-image: url(../img/people2.jpg);
+    background-size: cover;
+}
+
+#t3{
+    background-image: url(../img/people3.jpg);
+    background-size: cover;
+}
+
+
+/* ends */
+
+
+/* footer */
+
+footer{
+background-color: black;
+height: 300px;
+width: 100%;
+}
+
+.headng{
+    display: flex;
+    padding-top: 60px;
+}
